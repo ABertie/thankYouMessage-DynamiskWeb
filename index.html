@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+
+    <!-- Style-->
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 10% auto;
+        }
+        form label{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <form action="/tak.html">
+        <label>
+            Skriv dit navn her:
+            <input name="name" type="text">
+        </label>
+        <label>
+            Skriv din Email her:
+            <input name="email" type="email">
+        </label>
+        <label>
+            Skriv din besked her:
+            <textarea name="massage"></textarea>
+        </label>
+        <button type="submit">Send din besked</button>
+    </form>
+</body>
+</html>
